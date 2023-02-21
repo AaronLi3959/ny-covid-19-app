@@ -2,7 +2,7 @@
   "name": "ny-covid-19-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aaronli3959.github.io/ny-covid-19-app",
+  "homepage": "https://aaronli3959.github.io/ny-covid-19-app/",
   "dependencies": {
     "@mui/material": "^5.11.10",
     "@mui/x-data-grid": "^5.17.24",
