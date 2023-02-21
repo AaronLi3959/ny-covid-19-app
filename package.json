@@ -2,6 +2,7 @@
   "name": "ny-covid-19-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aaronli3959.github.io/ny-covid-19-app",
   "dependencies": {
     "@mui/material": "^5.11.10",
     "@mui/x-data-grid": "^5.17.24",
@@ -29,6 +30,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -51,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
